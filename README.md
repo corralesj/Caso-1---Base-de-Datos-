@@ -12,3 +12,7 @@ https://github.com/corralesj/Caso-1---Base-de-Datos-/blob/main/caso1.pdf
 
 ## **Link a la lista de entidades:**  
 https://github.com/joshuacorraless/Caso1-Entregable1-BD/blob/main/ListaDeEntidades.md
+
+
+## **Link a la documentación e investigación:**  
+https://github.com/joshuacorraless/Caso1-Entregable1-BD/blob/main/Documentacion.md
