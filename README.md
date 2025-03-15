@@ -11,3 +11,4 @@ Aquí se encuentra el entregable 1, que consiste en la documentación del caso e
 https://github.com/corralesj/Caso-1---Base-de-Datos-/blob/main/caso1.pdf
 
 ## **Link a la lista de entidades:**  
+https://github.com/joshuacorraless/Caso1-Entregable1-BD/blob/main/ListaDeEntidades.md
