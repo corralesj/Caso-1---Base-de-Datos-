@@ -1,5 +1,10 @@
 # **Lista de Entidades**  
 
+> **Nota:** Esta lista solo describe los atributos principales de cada entidad.  
+> No incluye claves primarias (PK) ni claves foráneas (FK), ya que estas están documentadas en el modelo relacional.
+
+
+
 ## **Usuarios**  
 - **Firstname**  
 - **Password**  
