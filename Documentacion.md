@@ -6,13 +6,13 @@ Descripción
 Imagina un asistente personal que no solo recuerda tus pagos recurrentes, sino que también los ejecuta por ti con solo confirmar un recordatorio. Con tecnología de inteligencia artificial de vanguardia, nuestra app te permite registrar y programar pagos de servicios como luz, agua, renta y más, usando simplemente tu voz. Olvídate de fechas vencidas, multas o estrés financiero. Además, con planes flexibles que se adaptan a tus necesidades, disfrutas de una experiencia gratuita para un pago mensual y opciones premium para múltiples transacciones.
 Es importante recalcar que nuestro diseño de base de datos, en las tablas de usuarios, roles, permisos, transacciones y todas las demás, está inspirado en las explicaciones del profesor durante las clases, bajo el principio de siempre insertar y no actualizar.
 
-![Imagen 1](imagenes/users.png)
-![Imagen 2](imagenes/countries.png)
-![Imagen 3](imagenes/contacts.png)
-![Imagen 4](imagenes/metodospagos.png)
-![Imagen 5](imagenes/pagos.png)
-![Imagen 6](imagenes/transacciones.png)
-![Imagen 7](imagenes/suscription.png)
+![Imagen 1](users.png)
+![Imagen 2](countries.png)
+![Imagen 3](contacts.png)
+![Imagen 4](metodospagos.png)
+![Imagen 5](pagos.png)
+![Imagen 6](transacciones.png)
+![Imagen 7](suscription.png)
 
 Esto reduce el riesgo de errores, además de mejorar el rendimiento del sistema.
 Ahora bien, a continuación, están los requerimientos funcionales explicados, las tablas correspondientes necesarias, el por qué son importantes, y además algunos ejemplos de aplicaciones o sitios web que utilizan estos métodos:
@@ -29,7 +29,7 @@ Tablas involucradas:
 •	VoiceTranscription: Guarda las transcripciones de los comandos de voz.
 •	AI_Interaction: Registra cada interacción, incluyendo los comandos extraídos y las respuestas generadas.
 
-![Imagen](imagenes/audio.png)
+![Imagen](audio.png)
 
 Esta combinación permite que el sistema capture con precisión las órdenes emitidas por voz y las vincule a la identidad del usuario, facilitando el seguimiento y la mejora continua de la experiencia. Esta funcionalidad la utilizan aplicaciones como Google Assistant y Amazon Alexa para permitir a los usuarios interactuar de manera natural y sin fricciones. Los usuarios se benefician de la rapidez y facilidad de uso, reduciendo errores de entrada manual y haciendo el proceso mucho más intuitivo.
 
@@ -46,7 +46,7 @@ Tablas involucradas:
 •	companies: Gestiona información de empresas relacionadas o clientes corporativos.
 •	ContactInfoTypes y ContactInfo: Permiten almacenar datos de contacto y otros detalles asociados a cuentas y métodos.
 
-![Imagen](imagenes/gestion.png)
+![Imagen](gestion.png)
 
 Estas tablas aseguran que toda la información financiera y de contacto esté correctamente vinculada a cada usuario, permitiendo transacciones seguras y verificables. Esta funcionalidad la utilizan aplicaciones como Mint para la gestión de cuentas y la monitorización de saldos. Los usuarios se benefician al tener toda su información financiera consolidada y actualizada, lo que permite transacciones seguras y verificables.
 
@@ -63,7 +63,7 @@ Tablas involucradas:
 •	Balances: Controla el saldo y registra los movimientos financieros asociados.
 •	Notificacion: Gestiona el envío de recordatorios y confirmaciones de pago.
 
-![Imagen](imagenes/ejecucion.png)
+![Imagen](ejecucion.png)
 
 Este conjunto de tablas permite un seguimiento detallado de todas las transacciones, garantizando que cada pago se ejecute y se registre correctamente para futuros análisis y auditorías. Esta funcionalidad la utilizan aplicaciones como Braintree Payments, que ofrecen un sistema robusto para procesar pagos y mantener un historial detallado de transacciones. Los usuarios se benefician al contar con un registro transparente de sus operaciones, lo que facilita el seguimiento y la resolución de cualquier inconveniente.
 
@@ -81,7 +81,7 @@ Tablas involucradas:
 •	PlanPerPerson: Relaciona el plan de suscripción con cada usuario, permitiendo saber qué plan ha seleccionado cada cliente.
 •	PersonPlanLimits: Establece restricciones específicas, como la cantidad máxima de pagos o transferencias mensuales que se permiten en cada plan.
 
-![Imagen](imagenes/monetizacion.jpeg)
+![Imagen](monetizacion.jpeg)
 
 Este modelo permite gestionar de manera integral las suscripciones del usuario, garantizando que el plan gratuito se mantenga con un solo pago mensual, mientras que los planes de suscripción premium se ajustan a la cantidad de transacciones requeridas y se renuevan automáticamente, facilitando la facturación continua. Esta funcionalidad la utilizan servicios como Stripe Checkout para gestionar suscripciones y planes de precios de forma dinámica. Los usuarios se benefician de una oferta flexible que se adapta a sus necesidades, facilitando la comparación y elección de un plan que maximice su valor.
 
@@ -97,7 +97,7 @@ Tablas involucradas:
 •	pagoProgramado: Vincula la programación con la ejecución de pagos, relacionando montos y métodos de pago.
 •	Notificacion: Gestiona el envío y registro de notificaciones y recordatorios.
 
-![Imagen](imagenes/recordatorios.png)
+![Imagen](recordatorios.png)
 
 Este sistema asegura que los pagos se realicen a tiempo y que el usuario siempre reciba la información necesaria para autorizar cada transacción. Esta funcionalidad la utilizan aplicaciones como Rocket Money o Prism Bill Pay, que programan recordatorios y ayudan a gestionar las fechas de pago. Los usuarios se benefician al evitar olvidos y multas, manteniendo un flujo de pagos puntual y organizado.
 
@@ -129,7 +129,7 @@ Tablas involucradas:
 •	LogSeverity: Define la gravedad de los logs.
 •	Logs: Almacena el registro completo de eventos y errores para auditoría.
 
-![Imagen](imagenes/api.png)
+![Imagen](api.png)
 
 Estas tablas aseguran que la integración externa y el registro de actividades se realicen de forma transparente y eficiente. Esta funcionalidad la utilizan aplicaciones como Stripe y Twilio para integrar pagos y envíos de SMS, mientras que plataformas como Datadog y Splunk gestionan los logs y eventos del sistema. Los usuarios se benefician al contar con procesos automatizados y un sistema de monitoreo que garantiza la estabilidad y la seguridad del servicio.
 
@@ -146,7 +146,7 @@ Tablas involucradas:
 •	Countries: Relaciona países con la moneda y el idioma correspondiente.
 •	companies: Gestiona información de empresas relacionadas, ya sean clientes o entidades colaboradoras.
 
-![Imagen](imagenes/internacional.png)
+![Imagen](internacional.png)
 
 Estas tablas complementarias permiten que la aplicación opere de forma personalizada y escalable en diferentes mercados internacionales. Esta funcionalidad la utilizan aplicaciones como Revolut y Wise, que gestionan múltiples monedas y ofrecen tasas de cambio en tiempo real. Los usuarios se benefician de una plataforma que les permite operar en su moneda local y recibir información adaptada a su región, lo que mejora la experiencia global del servicio.
 
@@ -160,6 +160,6 @@ Tablas involucradas:
 •	TransType: Registra los tipos generales de transacciones que se pueden realizar.
 •	VoiceTranscription: Además de lo mencionado, refuerza el análisis de los comandos de voz para futuras mejoras.
 
-![Imagen](imagenes/transcription.png)
+![Imagen](transcription.png)
 
 Esta funcionalidad es crucial para sistemas financieros que requieren un análisis detallado y categorización precisa de cada transacción. Empresas de análisis de datos y auditoría financiera utilizan esta aproximación para identificar patrones, optimizar procesos y mejorar la precisión en la gestión de transacciones
