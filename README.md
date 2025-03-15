@@ -9,3 +9,5 @@ Aquí se encuentra el entregable 1, que consiste en la documentación del caso e
 
 ## **Link al PDF del diseño en WorkBench:**  
 https://github.com/corralesj/Caso-1---Base-de-Datos-/blob/main/caso1.pdf
+
+## **Link a la lista de entidades:**  
