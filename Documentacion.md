@@ -12,7 +12,7 @@ Es importante recalcar que nuestro diseño de base de datos, en las tablas de us
 ![Imagen 4](metodospagos.png)
 ![Imagen 5](pagos.png)
 ![Imagen 6](transacciones.png)
-![Imagen 7](suscription.png)
+![Imagen 7](suscriptions.png)
 
 Esto reduce el riesgo de errores, además de mejorar el rendimiento del sistema.
 Ahora bien, a continuación, están los requerimientos funcionales explicados, las tablas correspondientes necesarias, el por qué son importantes, y además algunos ejemplos de aplicaciones o sitios web que utilizan estos métodos:
